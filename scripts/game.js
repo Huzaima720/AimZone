@@ -13,6 +13,10 @@ function generateBall() {
   ball.style.backgroundColor = `hsl( ${Math.floor(
     Math.random() * 360
   )} , 100% , 74% )`;
+  // ball size decreasing after every second
+  
+
+
 }
 
 generateBall();
@@ -20,6 +24,9 @@ generateBall();
 
 canvas.addEventListener("click", (e) => {
   e.preventDefault();
+  let shotSound = new Audio
+    shotSound.src = "sounds/shot.mp3";
+    shotSound.play();
   if (e.target == ball) {
     hits++;
     hitsCount.innerText = hits;

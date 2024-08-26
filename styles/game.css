@@ -46,7 +46,7 @@ h2 span {
     position: relative;
     overflow: hidden;
     background-color: #011628da;
-    cursor: url('dot-white.png')  , auto;
+    cursor: url('dot.png')  , auto;
 }
 
 /* a{
