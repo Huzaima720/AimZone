@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+a{
+    font-size: 25px;
+}
+
+.levels{
+    display: flex;
+    gap: 20px;
+}
+.results{
+    display: flex;
+    gap: 20px;
+}
+
+.results h2{
+    font-size: 22px;
+    font-weight: normal;
+    color: #D6F3F1;
+    display: flex;
+    gap: 15px;
+}
